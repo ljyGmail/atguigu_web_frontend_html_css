@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>10_vertical_align</title>
+    <style>
+      #d1,
+      #d2 {
+        font-size: 100px;
+        height: 300px;
+        background-color: skyblue;
+      }
+
+      span {
+        font-size: 40px;
+        background-color: orange;
+        vertical-align: middle;
+      }
+
+      img {
+        height: 150px;
+        vertical-align: top;
+      }
+
+      .san {
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="d1">atguigu尚硅谷x<span>x前端</span></div>
+    <hr />
+    <div id="d2">atguigu尚硅谷x<img src="../images/我的自拍.jpg" /></div>
+    <hr />
+    <table border="1" cellspacing="0">
+      <caption>
+        人员信息
+      </caption>
+      <thead>
+        <tr>
+          <td>姓名</td>
+          <td>年龄</td>
+          <td>性别</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr height="200">
+          <td class="san">张三</td>
+          <td>18</td>
+          <td>男</td>
+        </tr>
+        <tr>
+          <td>李四</td>
+          <td>20</td>
+          <td>女</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
