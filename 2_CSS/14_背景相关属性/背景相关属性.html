@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>背景相关属性</title>
+    <style>
+      div:last-child {
+        display: none;
+      }
+
+      body {
+        background-color: gray;
+      }
+
+      div {
+        width: 400px;
+        height: 400px;
+        font-size: 20px;
+        border: 5px black solid;
+        /* 设置背景颜色 */
+        background-color: skyblue;
+        /* 设置背景图片 */
+        background-image: url(../images/悟空.jpg);
+        /* 设置背景图片的重复方式 */
+        background-repeat: no-repeat;
+        /* 控制背景图片的位置-第一种写法：用关键词 */
+        background-position: center;
+        /* 控制背景图片的位置-第二种写法：用具体的像素值 */
+        background-position: 300px;
+        /* 复合属性 */
+        background: green url("../images/悟空.jpg") no-repeat 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>你好啊！</div>
+  </body>
+</html>
