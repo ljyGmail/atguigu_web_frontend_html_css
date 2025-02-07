@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>08_盒子的内边距</title>
+    <style>
+      #__endic_crx__ {
+        display: none;
+      }
+
+      #d1 {
+        width: 400px;
+        height: 400px;
+        /* 左侧的内边距 */
+        /* padding-left: 20px; */
+        /* 上内边距 */
+        /* padding-top: 30px; */
+        /* 右侧的内边距 */
+        /* padding-right: 40px; */
+        /* 底内边距 */
+        /* padding-bottom: 50px; */
+
+        /* 复合属性，写一个值，含义：四个方向的内边距是一样的 */
+        padding: 20px;
+        /* 复合属性，写两个值，含义：上下、左右 */
+        padding: 10px 20px;
+        /* 复合属性，写三个值，含义：上、左右、下 */
+        padding: 10px 20px 30px;
+        /* 复合属性，写四个值，含义：上、右、下、左 */
+        padding: 10px 20px 30px 40px;
+
+        font-size: 20px;
+        background-color: skyblue;
+      }
+      span {
+        background-color: orange;
+        padding-left: 20px;
+        /* 行内元素的左右内边距可以设置，但上下内边距不能完美地设置 */
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      img {
+        width: 200px;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="d1">你好啊</div>
+    <hr />
+    <span>我很好</span>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, mollitia.
+    </div>
+    <hr />
+    <img src="../images/小姐姐.gif" alt="小姐姐" />
+    <div>小姐姐很想你呀</div>
+  </body>
+</html>
