@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>26_行内块的幽灵问题</title>
+    <style>
+      #__endic_crx__ {
+        display: none;
+      }
+      div {
+        width: 600px;
+        background-color: skyblue;
+        font-size: 0;
+      }
+      img{
+        width: 200px;
+        /* vertical-align: bottom; */
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="../images/我的自拍.jpg" alt="悟空" />
+    </div>
+  </body>
+</html>
