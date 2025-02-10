@@ -59,7 +59,6 @@
 /* #region头部start */
 .header {
   height: 120px;
-  background-color: skyblue;
 }
 
 .header .search form {
@@ -83,3 +82,29 @@
   background-position: 28px 6px;
 }
 /* #endregion头部end */
+
+/* #region主导航start */
+.main-nav {
+  height: 48px;
+  border-bottom: 1px solid #dd302d;
+}
+.main-nav .all-types {
+  width: 190px;
+  height: 48px;
+  background-color: #dd302d;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 48px;
+}
+.main-nav .main-nav-list {
+  height: 48px;
+  line-height: 48px;
+}
+.main-nav-list li {
+  float: left;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+/* #endregion主导航end */
