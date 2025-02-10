@@ -108,3 +108,42 @@
 }
 
 /* #endregion主导航end */
+
+/* #region主要内容区start */
+.main-content {
+  margin-top: 10px;
+}
+.main-content .slide-nav {
+  width: 190px;
+  height: 458px;
+  background-color: #f4f4f4;
+}
+.main-content .slide-nav li {
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 16px;
+}
+.main-content .slide-nav li:hover {
+  background-color: #dd302d;
+}
+.main-content .slide-nav li:hover a {
+  color: white;
+}
+
+
+
+
+
+.main-content .banner {
+  width: 690px;
+  height: 458px;
+  background-color: green;
+  margin: 0 10px;
+}
+.main-content .slide-other {
+  width: 290px;
+  height: 458px;
+  background-color: orange;
+}
+/* #endregion主要内容区end */
