@@ -106,7 +106,6 @@
   margin: 0 10px;
   font-size: 16px;
 }
-
 /* #endregion主导航end */
 
 /* #region主要内容区start */
@@ -170,9 +169,40 @@
   background-color: green;
   margin: 0 10px;
 }
+
 .main-content .slide-other {
   width: 290px;
   height: 458px;
-  background-color: orange;
+  /* background-color: orange; */
+}
+
+.slide-other .message {
+  width: 260px;
+  height: 156px;
+  border: 1px solid #d9d9d9;
+  padding: 0 14px;
+}
+
+.slide-other .message .title {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.slide-other .message .title span {
+  font-size: 14px;
+}
+.slide-other .message .title a {
+  font-size: 12px;
+}
+.slide-other .msg-list li {
+  height: 26px;
+  line-height: 26px;
+}
+
+.slide-other .other-nav {
+  width: 290px;
+  height: 290px;
+  background-color: gray;
+  margin-top: 10px;
 }
 /* #endregion主要内容区end */
