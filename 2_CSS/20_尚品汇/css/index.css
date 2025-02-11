@@ -261,5 +261,19 @@
 .other-nav-list:nth-child(3) li:nth-child(4) .picture {
   background-position: -144px -96px;
 }
-
 /* #endregion主要内容区end */
+
+/* #region秒杀start */
+.seckill{
+  margin-top: 10px;
+}
+.seckill img {
+  float: left;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+.seckill img:last-child {
+  margin-right: 0;
+}
+/* #endregion秒杀end */
